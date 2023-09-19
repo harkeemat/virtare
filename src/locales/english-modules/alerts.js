@@ -1,0 +1,21 @@
+export default {
+  patient: "Patient",
+  people: "People",
+  type: "Type",
+  reason: "Short Reason",
+  detailedNote: "Detailed Note",
+  action: "Action",
+  notes:"Detailed Reason",
+  actionNotes:"Action Note",
+  careTeamPeople:"Care Team People",
+  alert:"Escalation",
+  alerts:"Escalations",
+  textLine:'Communication with external care providers',
+  udid:"Reference Id",
+  closeAlert:"Close Escalation",
+  btnTxt:"Submit",
+  name:"Name",
+  pdfBtn:"Download PDF",
+  isInternal:"Internal Team",
+  validationMsg:`At least one field is required`
+};

@@ -1,0 +1,191 @@
+[
+    {
+    "id": 1,
+    "name": "Add Appointment"
+    },
+    {
+    "id": 2,
+    "name": "Clinical Dashboard"
+    },
+    {
+    "id": 3,
+    "name": "Business Dashboard"
+    },
+    {
+    "id": 4,
+    "name": "Report Escalation"
+    },
+    {
+    "id": 5,
+    "name": "Start Call"
+    },
+    {
+    "id": 6,
+    "name": "Communications"
+    },
+    {
+    "id": 7,
+    "name": "Care Coordinator"
+    },
+    {
+    "id": 8,
+    "name": "Add New Care Coordinator"
+    },
+    {
+    "id": 9,
+    "name": "Add Emergency Contact"
+    },
+    {
+    "id": 10,
+    "name": "Add Availability"
+    },
+    {
+    "id": 11,
+    "name": "Add Roles"
+    },
+    {
+    "id": 12,
+    "name": "Add Documents"
+    },
+    {
+    "id": 13,
+    "name": "Staff Locations"
+    },
+    {
+    "id": 14,
+    "name": "Staff Programs"
+    },
+    {
+    "id": 15,
+    "name": "Add Specialist"
+    },
+    {
+    "id": 16,
+    "name": "Add Patient"
+    },
+    {
+    "id": 17,
+    "name": "Devices"
+    },
+    {
+    "id": 18,
+    "name": "Programs"
+    },
+    {
+    "id": 19,
+    "name": "Insurance"
+    },
+    {
+    "id": 20,
+    "name": "Documents"
+    },
+    {
+    "id": 21,
+    "name": "Conditions"
+    },
+    {
+    "id": 22,
+    "name": "History & Meds"
+    },
+    {
+    "id": 23,
+    "name": "Add Task"
+    },
+    {
+    "id": 24,
+    
+    "name": "Tasks"
+    },
+    {
+    "id": 25,
+    "name": "General Parameters"
+    },
+    {
+    "id": 26,
+    "name": "Add Time Logs"
+    },
+    {
+    "id": 27,
+    "name": "Add Providers"
+    },
+    {
+    "id": 28,
+    "name": "Contact Person"
+    },
+    {
+    "id": 29,
+    "name": "Create New Role"
+    },
+    {
+    "id": 30,
+    "name": "Describe Role"
+    },
+    {
+    "id": 31,
+    "name": "Permissions"
+    },
+    {
+    "id": 32,
+    "name": "Dashboard Widgets"
+    },
+    {
+    "id": 33,
+    "name": "Add Global Code"
+    },
+    {
+    "id": 34,
+    "name": "Add Inventory"
+    },
+    {
+    "id": 35,
+    "name": "Create New Group"
+    },
+    {
+    "id": 36,
+    "name": "Group Composition"
+    },
+    {
+    "id": 37,
+    "name": "Staff"
+    },
+    {
+    "id": 38,
+    "name": "Create Template"
+    },
+    {
+    "id": 39,
+    "name": "Template EG"
+    },
+    {
+    "id": 40,
+    "name": "Add Question"
+    },
+    {
+    "id": 41,
+    "name": "Add Flag"
+    },
+    {
+    "id": 42,
+    "name": "Add Note"
+    },
+    {
+    "id": 43,
+    "name": "Add Care Coordinator"
+    },
+    {
+        "id": 44,
+        "name": "Medical History"
+    },
+    {
+        "id": 45,
+        "name": "Tool Tip"
+    },
+    {
+        "id": 46,
+        "name": "Add Option"
+    },
+    {
+        "id": 47,
+        "name": "Add Family Member"
+    }
+]

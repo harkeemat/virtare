@@ -1,0 +1,110 @@
+@import "variable.scss";
+@import "fonts.scss";
+
+.loginWrapper {
+    background-color: $gray-color-100;
+    .logIn {
+        max-width: 800px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        height: 100vh;
+        justify-content: center;
+        padding: 15px 30px;
+        overflow: auto;
+        .loginInner {
+            align-self: center !important;
+            border-radius: 15px;
+            overflow: hidden;
+            width: 100%;
+            .leftWrapper {
+                background-color: $secondary-color;
+                height: 100%;
+                padding: 15px 40px;
+                display: flex;
+                align-items: center;
+                color: $primary-color;
+                position: relative;
+                text-align: left;
+                justify-content: center;
+                .logo {
+                    text-align: center;
+                    margin: 0 0 30px 0;
+                    img {
+                        max-width: 150px;
+                        margin: 0 auto;
+                        display: inline-block;
+                    }
+                }
+                h3 {
+                    font-size: 20px;
+                }
+                h2 {
+                    position: relative;
+                    margin: 0 0 30px;
+                    font-size: 22px;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        bottom: -8px;
+                        left: 0;
+                        height: 2px;
+                        background-color: $primary-color;
+                        width: 50px;
+                    }
+                }
+                .rightImg {
+                    position: absolute;
+                    right: 0;
+                    bottom: 20px;
+                    max-width: 50px;
+                }
+            }
+            .rightWrapper {
+                background-color: $primary-color-contrast;
+                padding: 50px 20px;
+                height: 100%;
+                position: relative;
+                h2 {
+                    text-align: left;
+                    position: relative;
+                    margin: 0 0 45px;
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        bottom: -8px;
+                        left: 0;
+                        transform: translateX(-0);
+                        height: 2px;
+                        background-color: $primary-color;
+                        width: 30px;
+                    }
+                }
+                .rightImg {
+                    position: absolute;
+                    right: 0;
+                    top: 20px;
+                    max-width: 50px;
+                }
+                form {
+                    text-align: left;
+                    .field {
+                        margin: 0 0 15px;
+                    }
+                    .buttons {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .btn {
+                        margin: 10px 0 0;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

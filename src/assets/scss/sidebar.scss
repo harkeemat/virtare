@@ -1,0 +1,244 @@
+body.test {
+    &.show {
+        .ant-layout {
+            .ant-layout-has-sider {
+                padding-left: 74px;
+                .ant-layout-sider {
+                    width: 74px !important;
+                    min-width: 74px !important;
+                    .menuList {
+                        .ant-menu {
+                            .ant-menu-item {
+                                .ant-menu-title-content {
+                                    span {
+                                        &.menuItem {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.activeSidebar {
+            .ant-layout {
+                .ant-layout-has-sider {
+                    .ant-layout-sider {
+                        width: 200px !important;
+                        .menuList {
+                            .ant-menu {
+                                .ant-menu-item {
+                                    .ant-menu-title-content {
+                                        span {
+                                            &.menuItem {
+                                                display: initial;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ant-layout {
+    background-color: transparent !important;
+    .ant-layout-content {
+        // padding: 12px;
+        height: 100%;
+        // overflow: auto;
+        position: relative;
+    }
+    .ant-layout-has-sider {
+        padding-top: 80px;
+        min-height: calc(100vh - 84px);
+        padding-left: 200px;
+        transition: all 0.5s !important;
+        // background-color: rgba(107,184,110,.5);
+        @media screen and (max-width: 991px) {
+            padding-left: 0px;
+        }
+        .ant-layout-sider {
+            background: $white-color;
+            z-index: 99;
+            transition: all 0.5s !important;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            border-right: 1px solid $border-color-2;
+
+            // height: calc(100vh - 64px) !important;
+            // @media screen and (max-width: 991px) {
+            //     left: -200px !important;
+            // }
+            .ant-layout-sider-children {
+                position: relative;
+                .menuList {
+                    height: calc(100% - 106px);
+                    overflow: auto;
+                    -ms-overflow-style: none; /* IE and Edge */
+                    scrollbar-width: none; /* Firefox */
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+                    .ant-menu {
+                        border: none;
+                        .ant-menu-sub {
+                            background-color: transparent;
+                        }
+                        .ant-menu-item,
+                        .ant-menu-submenu {
+                            color: $black-color !important;
+                            margin: 0;
+                            padding: 2px 12px !important;
+                            height: auto;
+                            &::after {
+                                display: none !important;
+                            }
+                            &.ant-menu-submenu-open {
+                                .ant-menu-submenu-title {
+                                    background-color: $border-color-2;
+                                    font-family: $font-family-semi-bold;
+                                }
+                            }
+                            .ant-menu-title-content,
+                            .ant-menu-submenu-title {
+                                .anticon {
+                                    position: relative;
+                                    top: -2px;
+                                    font-size: 20px;
+                                }
+                            }
+                            &.ant-menu-item-selected {
+                                background-color: $white-color !important;
+                            }
+                            a {
+                                padding: 8px 15px;
+                                color: $black-color !important;
+                                display: block;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                border-radius: 5px;
+                                font-size: 16px;
+                                line-height: 20px;
+                                &:hover,
+                                &.router-link-active {
+                                    background-color: $border-color-2;
+                                    font-family: $font-family-semi-bold;
+                                    svg {
+                                        path {
+                                            fill: $black-color;
+                                        }
+                                    }
+                                }
+                                span {
+                                    &.menuItem {
+                                        margin-left: 17px;
+                                    }
+                                }
+                                .ant-badge {
+                                    font-size: 16px;   
+                                }
+                            }
+                            &:hover {
+                                background-color: #fff;
+                            }
+                            .ant-menu-submenu-title {
+                                padding: 8px 15px !important;
+                                color: $black-color !important;
+                                display: block;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                border-radius: 5px;
+                                font-size: 16px;
+                                line-height: 20px;
+                                &:hover,
+                                &.router-link-active {
+                                    background-color: $border-color-2;
+                                    font-family: $font-family-semi-bold;
+                                   
+                                }
+                                .ant-menu-title-content {
+                                    margin-left: 17px;
+                                }
+                                .ant-menu-submenu-arrow {
+                                    color: $black-color;
+                                }
+                            }
+                            
+                        }
+                        .ant-divider-horizontal {
+                            margin: 14px auto;
+                            width: calc(100% - 32px);
+                            min-width: auto;
+                            border-color: $border-color-2;
+                        }
+                        &.router-link-active {
+                            .ant-menu-item {
+                                background-color: $border-color-2 !important;
+                            }
+                           
+                        }
+                    }
+                }
+                .version {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                    color: #000;
+                    font-size: 14px;
+                    bottom: 0;
+                    background-color:$white-color;
+                    padding: 10px 0;
+                }
+            }
+            .icon {
+                display: flex;
+                align-items: center;
+                height: 64px;
+                padding: 0 0 0 25px;
+                svg {
+                    font-size: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.subMenu {
+    .questionnaireMenu {
+        position: relative;
+        color: $black-color;
+        margin: 0;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        .menuItem {
+            margin: 0 0 0 10px;
+        }
+        .anticon.anticon-down {
+            margin: 0 0 0 10px;
+        }
+        .anticon.anticon-up {
+            margin: 0 0 0 10px;
+        }
+    }
+    .dropDown {
+        padding-left: 10px;
+    }
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: transparent !important;
+}
